@@ -1,9 +1,9 @@
 #include <poppler/glib/poppler.h>
 #include <poppler/glib/poppler-document.h>
 
-#include <cairo.h>
-#include <cairo-ps.h>
-#include <cairo-pdf.h>
+#include <cairo/cairo.h>
+#include <cairo/cairo-ps.h>
+#include <cairo/cairo-pdf.h>
 
 #include <iostream>
 #include <fstream>

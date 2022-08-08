@@ -16,6 +16,12 @@ Takes a PDF document and makes it suitable for printing, by:
 - rotate and scale to fit as needed to a desired page size
 - convert to PDF 1.5, Postscript 2 or PWG/URF raster
 
+For example, to convert a PDF to pwg-raster:
+
+```
+$ FORMAT=pwg pdf2printable input.pdf output.pwg
+```
+
 ## baselinify
 Takes a JPEG and losslessly repacks it to the baseline ecoding profile, keeping only JFIF and Exif headers.
 Sort of like jpegtran without any arguments, but reusable in C++.
